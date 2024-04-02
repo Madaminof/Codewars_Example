@@ -1,4 +1,4 @@
-def ShortLong(a, b):
+"""def ShortLong(a, b):
     return a+b+a if len(a)<len(b) else b+a+b
 
 def elevator(left, right, call):
@@ -76,4 +76,21 @@ def lowercase_count(strng):
     for i in strng:
         if i.islower():
             c+=1
-    return c        
+    return c     
+"""
+
+
+def draw_stairs(n):
+    stairs = ""
+    for i in range(n):
+        stairs += " " * i + "I\n"
+    return stairs.rstrip()
+print(draw_stairs(5))
+
+
+"""
+q=""
+print(len(q))
+for i in range(5):
+    q+="\t"
+print(len(q))    """
