@@ -3,10 +3,6 @@
 
 def elevator(left, right, call):
     return "left" if abs(call - left) < abs(call - right) else "right"
-
-
-
-
 #
 import math
 def logs(x, a, b):
@@ -78,7 +74,7 @@ def lowercase_count(strng):
             c+=1
     return c     
 """
-
+"""
 
 def draw_stairs(n):
     stairs = ""
@@ -86,7 +82,7 @@ def draw_stairs(n):
         stairs += " " * i + "I\n"
     return stairs.rstrip()
 print(draw_stairs(5))
-
+"""
 
 """
 q=""
@@ -94,3 +90,51 @@ print(len(q))
 for i in range(5):
     q+="\t"
 print(len(q))    """
+
+
+
+
+"""l1 = []
+result=[]
+for i in lists:
+    for j in i.values():
+        l1.append(j)
+
+for i in l1:
+    for j in lists:
+        for key,value in j.items():
+            if l1.count(i)==2 and value==i:
+                result.append(key)
+result1=set(result)
+print(sorted(list(result1)))   """ 
+
+
+
+
+# mavzu: lists,dict,set larga doir masala (EASY😂)
+def Dict_Values_Dublicate_Print_Sort_Keys(n):
+    l1 = []
+    result=[]
+    for i in n:
+        for j in i.values():
+            l1.append(j)
+    for i in l1:
+        for j in lists:
+            for key,value in j.items():
+                if l1.count(i)==2 and value==i:
+                    result.append(key)
+    result1=set(result)
+    return sorted(result1)
+lists=[{"ali":20},{"toms":55},{"john":20},{"sardor":11},{"bobir":55}]
+print(Dict_Values_Dublicate_Print_Sort_Keys(lists))
+
+
+                
+
+
+
+
+
+
+
+
